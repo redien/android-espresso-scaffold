@@ -6,9 +6,7 @@ PROJECT_NAME - PROJECT_SHORT_DESCRIPTION
 ## How to use
 
 First, in the `tools` Android SDK directory; start up a new emulator with the
-command `./emulator -avd [Name of AVD]` or
-`./emulator -avd [Name of AVD] -no-skin -no-audio -no-window` to start it in
-headless mode.
+command `./emulator -avd [Name of AVD]`.
 
 Then run integration tests using `./gradlew connectedDebugAndroidTest`.
 
