@@ -5,7 +5,8 @@ PROJECT_NAME - PROJECT_SHORT_DESCRIPTION
 
 ## How to use
 
-Projects files for Android studio are present.
+First, in the `tools` Android SDK directory; start up a new emulator with the
+command `./emulator -avd [Name of AVD]`.
 
 Then run integration tests using `./gradlew connectedDebugAndroidTest`.
 
